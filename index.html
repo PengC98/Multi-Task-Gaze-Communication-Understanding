@@ -80,7 +80,7 @@
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="https://github.com/PengC98/Multi-Task-Gaze-Communication-Understanding/static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -164,6 +164,109 @@
 </section>
 <!-- End image carousel -->
 
+  <!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel-img" class="carousel results-carousel">
+
+        <div class="item has-text-centered">
+          <img src="static/images/gp_ra.png" alt="1 research result visualization" />
+          <h2 class="subtitle">
+            Quantitative results of atomic-level gaze communication classification on GP-Static++.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <img src="static/images/gp_re.png" alt="2 research result visualization" loading="lazy" />
+          <h2 class="subtitle">
+            Quantitative results of event-level gaze communication classification on GP-Static++.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <img src="static/images/gp_rg.png" alt="3 research result visualization" loading="lazy" />
+          <h2 class="subtitle">
+            Gaze target estimation results on GP-Static++.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <img src="static/images/va_ra.png" alt="4 research result visualization" loading="lazy" />
+          <h2 class="subtitle">
+            Quantitative results of atomic-level gaze communication classification on VACATION.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <img src="static/images/va_re.png" alt="5 research result visualization" loading="lazy" />
+          <h2 class="subtitle">
+            Quantitative results of event-level gaze communication classification on VACATION.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <img src="static/images/laeo_vc.png" alt="6 research result visualization" loading="lazy" />
+          <h2 class="subtitle">
+            Quantitative results on UCO-LAEO and VideoCoAttention dataset.
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Ensures all images are centered and responsive */
+  #results-carousel img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%; /* adjust as needed (e.g. 100% or 60%) */
+    height: auto;
+  }
+</style>
+<!-- End image carousel -->
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video -->
+      <h2 class="title is-3">Video Presentation</h2>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <!-- Correct structure -->
+            <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+              <source src="static/videos/311_mpv.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Notes</h2>
+        <div class="content has-text-justified">
+          <p>
+            If you find our work is useful, please consider giving a star and citation. And our dataset GP-Static++ is an extension of GP-Static made by Fei Chang, Jiabei Zeng, Qiaoyun Liu, and Shiguang Shan in "Gaze pattern
+recognition in dyadic communication", we are really thankful for their work, so if you use our dataset, please also cite their work.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
@@ -183,8 +286,17 @@
   publisher={ACM},
   doi={10.1145/3746027.3754724}
 }</code></pre>
+      <pre><code>@inproceedings{chang2023gaze,
+  title={Gaze pattern recognition in dyadic communication},
+  author={Chang, Fei and Zeng, Jiabei and Liu, Qiaoyun and Shan, Shiguang},
+  booktitle={Proceedings of the 2023 Symposium on Eye Tracking Research and Applications},
+  pages={1--7},
+  year={2023}
+        }</code></pre>
     </div>
 </section>
+
+
 <!--End BibTex citation -->
 
 
@@ -215,3 +327,4 @@
   </body>
 
   </html>
+
