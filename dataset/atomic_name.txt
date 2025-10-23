@@ -1,0 +1,5 @@
+single
+miss
+void
+mutual
+share
